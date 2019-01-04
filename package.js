@@ -31,7 +31,7 @@ Package.onTest( function(api) {
   api.use('mizzao:timesync');
 
   api.use(['accounts-base', 'accounts-password']);
-  api.use(['coffeescript', 'underscore']);
+  api.use(['coffeescript@1.0.9||2.0.0', 'underscore']);
 
   api.use(['random', 'tracker']);
 
