@@ -10,7 +10,7 @@ Package.onUse( function(api) {
 
   api.use('accounts-base');
   api.use('check');
-  api.use(['coffeescript', 'underscore']);
+  api.use(['coffeescript@1.0.9||2.0.0', 'underscore']);
   api.use('mongo');
 
   api.use('deps', 'client');
